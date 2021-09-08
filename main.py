@@ -1,3 +1,10 @@
+#======================== MR_KHALSE | PHP KHALSE ==========================#
+#                                                                          #
+#           لطفا با معرفی ما و زدم منبع حمایتمون کنید.                  #
+#                   (@Irania90) =>  MR_KHALSE                              #
+#                   (@PHP_KHALSE) =>  PHP KHALSE                           #
+#                                                                          #
+#======================== MR_KHALSE | PHP KHALSE ==========================#
 from pydantic import BaseModel
 from fastapi import FastAPI
 from requests import get
@@ -31,3 +38,10 @@ def read_item(item_id:str ):
 #-----------------------------------------
 if __name__ == "__main__":
     uvicorn.run(app, host="127.0.0.1", port=8000)
+#======================== MR_KHALSE | PHP KHALSE ==========================#
+#                                                                          #
+#           لطفا با معرفی ما و زدم منبع حمایتمون کنید.                  #
+#                   (@Irania90) =>  MR_KHALSE                              #
+#                   (@PHP_KHALSE) =>  PHP KHALSE                           #
+#                                                                          #
+#======================== MR_KHALSE | PHP KHALSE ==========================#
