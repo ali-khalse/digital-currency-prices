@@ -4,4 +4,4 @@ list currncies:
   127.0.0.1:8000
 
 Get one:
-  127.0.0.1:8000/ETHBTC
+  \n 127.0.0.1:8000/ETHBTC
