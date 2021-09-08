@@ -2,6 +2,9 @@
 
 **Python:**
 <br><br>
+```ini
+requirements = fastapi, requests , uvicorn
+```
 list currncies:
 <br>
  http://127.0.0.1:8000
