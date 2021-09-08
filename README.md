@@ -1,2 +1,7 @@
-# digital-currency-prices
-A simple fast api
+# [digital-currency-prices](https://github.com/ali-khalse/digital-currency-prices)
+
+list currncies:
+  http://127.0.0.1:8000/
+
+Get one:
+  http://127.0.0.1:8000/ETHBTC
