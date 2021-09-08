@@ -1,4 +1,4 @@
-# 💰 [digital-currency-prices](https://github.com/ali-khalse/digital-currency-prices)
+# 💰 [digital currency prices api](https://github.com/ali-khalse/digital-currency-prices)
 
 **Python:**
 <br><br>
