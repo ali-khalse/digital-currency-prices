@@ -1,11 +1,4 @@
 <?php
-#======================== MR_KHALSE | PHP KHALSE ==========================#
-#                                                                          #
-#           لطفا با معرفی ما و زدن منبع حمایتمون کنید.                 #
-#                   (@Sudo_khalse) =>  MR_KHALSE                           #
-#                   (@PHP_KHALSE) =>  PHP KHALSE                           #
-#                                                                          #
-#======================== MR_KHALSE | PHP KHALSE ==========================#
 
 $DATA = json_decode(file_get_contents("https://www.binance.com/api/v1/ticker/allPrices"),true);
 header("Content-type: application/json; charset=utf-8");
@@ -38,13 +31,5 @@ $RESULT[$value] = "Isn`t Vali Currency" ;
 }else{
 $RESULT['ERROR'] = "'n' is empty." ;   
 }
-echo json_encode(["MR_KHALSE"=>'PHP_KHALSE',"result"=>$RESULT]);
-
-#======================== MR_KHALSE | PHP KHALSE ==========================#
-#                                                                          #
-#           لطفا با معرفی ما و زدن منبع حمایتمون کنید.                 #
-#                   (@Sudo_khalse) =>  MR_KHALSE                           #
-#                   (@PHP_KHALSE) =>  PHP KHALSE                           #
-#                                                                          #
-#======================== MR_KHALSE | PHP KHALSE ==========================#
+echo json_encode(["status"=>'True',"result"=>$RESULT]);
 ?>
